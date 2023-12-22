@@ -78,7 +78,7 @@ module.exports = (env, argv) => {
             new HtmlWebpackPlugin({
                 template: 'src/index.html',
                 hash: true,
-                minify: false
+                minify: true
             })
         ]
     });
